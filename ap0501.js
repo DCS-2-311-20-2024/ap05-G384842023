@@ -136,7 +136,7 @@ function init() {
     ]
   )
   // 自販機2の影の設定
-  vender02
+  vender02.castShadow = true;
   // 自販機2の位置の設定
   vender02.position.set(0.5, 0.75, 0);
   // 自販機2をシーンに追加する
