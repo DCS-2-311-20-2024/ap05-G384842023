@@ -59,6 +59,7 @@ function init() {
   cube.position.x = -3;
   // 立方体は影を作る
   cube.castShadow = true;
+  cube.receiveShadow = true;
   // シーンに立方体を加える
   scene.add(cube);
 
@@ -75,6 +76,7 @@ function init() {
  
   // 球は影を作る
   sphere.castShadow = true;
+  sphere.receiveShadow = true;
   // シーンに球を加える
   scene.add(sphere);
 
@@ -117,6 +119,7 @@ function init() {
   )
   // 自販機1の影の設定
   vender01.castShadow = true;
+  vender01.receiveShadow = true;
   // 自販機1の位置の設定
   vender01.position.set(-0.5, 0.75, 0);
   // 自販機1をシーンに追加する
@@ -137,6 +140,7 @@ function init() {
   )
   // 自販機2の影の設定
   vender02.castShadow = true;
+  vender02.receiveShadow = true;
   // 自販機2の位置の設定
   vender02.position.set(0.5, 0.75, 0);
   // 自販機2をシーンに追加する
